@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    background-color: steelblue;
+    border-radius: 10px;
+}
+
+.calculator input{
+    padding: 10px;
+    outline: none;
+    margin: 10px;
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    height: 15px;
+}
+
+.buttons{
+    display: flex;
+}
+
+.numbersBtn{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 10px 10px 10px;
+}
+
+.numbersBtn button{
+    margin: 2px;
+    padding: 20px;
+    font-size: 20px;
+}
